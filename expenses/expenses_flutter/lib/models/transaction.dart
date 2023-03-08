@@ -1,21 +1,15 @@
-import 'package:flutter/foudation.dart';
+import 'package:flutter/foundation.dart';
 
-class Transaction{
-
+class Transaction {
   final String id;
   final String title;
   final double value;
   final DateTime date;
 
   Transaction({
-   requerid this.id,
-   requerid this.title,
-   requerid this.value, 
-   requerid this.date,
-
+    required this.id,
+    required this.title,
+    required this.value,
+    required this.date,
   });
-
-
-
-
 }
